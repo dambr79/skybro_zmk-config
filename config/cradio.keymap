@@ -88,7 +88,7 @@
         default_layer {
             display-name = "DEFAULT";
             bindings = <
-&kp Q             &kp W           &kp E           &kp R        &kp T         &kp Y      &kp U            &kp I                &ht LEFT_BRACKET O  &ht RIGHT_BRACKET P
+&ht ESCAPE Q      &kp W           &kp E           &kp R        &kp T         &kp Y      &kp U            &kp I                &ht LEFT_BRACKET O  &ht RIGHT_BRACKET P
 &ht LEFT_SHIFT A  &kp S           &kp D           &kp F        &kp G         &kp H      &kp J            &ht SEMICOLON K      &ht SQT L           &kp BSPC
 &ht LCTRL Z       &ht LEFT_WIN X  &ht LEFT_ALT C  &ht LC(V) V  &kp B         &kp N      &ht RIGHT_GUI M  &ht RIGHT_ALT COMMA  &ht RCTRL DOT       &kp ENTER
                                                   &lt 2 TAB    &kp LSHIFT    &kp SPACE  &lt 1 TAB
@@ -98,10 +98,10 @@
         right_layer {
             display-name = "NUM & NAVIGATION";
             bindings = <
-&kp HOME          &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &kp END          &kp SLASH     &kp N7  &kp N8  &kp N9  &kp MINUS
-&kp LS(CAPSLOCK)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS
-&kp DOT           &kp COLON       &kp EQUAL       &kp INS          &kp DELETE       &kp N0        &kp N1  &kp N2  &kp N3  &kp ENTER
-                                                  &trans           &kp ESC          &kp KP_COMMA  &trans
+&kp HOME            &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &kp END          &kp SLASH     &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp LS(CAPSLOCK)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS
+&ht LEFT_SHIFT DOT  &kp COLON       &kp EQUAL       &kp INS          &kp DELETE       &kp N0        &kp N1  &kp N2  &kp N3  &kp ENTER
+                                                    &trans           &kp ESC          &kp KP_COMMA  &trans
             >;
         };
 
