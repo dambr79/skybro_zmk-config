@@ -88,30 +88,30 @@
         default_layer {
             display-name = "DEFAULT";
             bindings = <
-&kp Q  &kp W       &kp E        &kp R       &kp T         &kp Y      &kp U       &kp I        &kp O       &kp P
-&kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F  &kp G         &kp H      &ht RGUI J  &ht RCTRL K  &ht RALT L  &kp BSPC
-&kp Z  &kp X       &kp C        &kp V       &kp B         &kp N      &kp M       &kp COMMA    &kp DOT     &kp ENTER
-                                &lt 2 TAB   &kp LSHIFT    &kp SPACE  &lt 1 TAB
+&kp Q             &kp W           &kp E           &kp R        &kp T         &kp Y      &kp U            &kp I                &ht LEFT_BRACKET O  &ht RIGHT_BRACKET P
+&ht LEFT_SHIFT A  &kp S           &kp D           &kp F        &kp G         &kp H      &kp J            &ht SEMICOLON K      &ht SQT L           &kp BSPC
+&ht LCTRL Z       &ht LEFT_WIN X  &ht LEFT_ALT C  &ht LC(V) V  &kp B         &kp N      &ht RIGHT_GUI M  &ht RIGHT_ALT COMMA  &ht RCTRL DOT       &kp ENTER
+                                                  &lt 2 TAB    &kp LSHIFT    &kp SPACE  &lt 1 TAB
             >;
         };
 
         right_layer {
             display-name = "NUM & NAVIGATION";
             bindings = <
-&kp HOME          &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &kp END          &kp SLASH     &kp N7        &kp N8        &kp N9        &kp N0
-&kp LS(CAPSLOCK)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp ASTERISK  &kp N4        &kp N5        &kp N6        &kp COMMA
-&kp DOT           &kp COLON       &kp EQUAL       &kp INS          &kp DELETE       &kp MINUS     &kp N1        &kp N2        &kp N3        &kp ENTER
-                                                  &trans           &kp ESC          &kp PLUS      &trans
+&kp HOME          &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &kp END          &kp SLASH     &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp LS(CAPSLOCK)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS
+&kp DOT           &kp COLON       &kp EQUAL       &kp INS          &kp DELETE       &kp N0        &kp N1  &kp N2  &kp N3  &kp ENTER
+                                                  &trans           &kp ESC          &kp KP_COMMA  &trans
             >;
         };
 
         left_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp EXCL        &kp AT    &kp HASH  &kp DLLR  &kp PRCNT           &kp CARET  &kp AMPS   &kp ASTRK      &kp GRAVE  &kp TILDE
-&kp DQT         &kp LBKT  &kp LBRC  &kp LPAR  &kp BACKSPACE       &kp FSLH   &kp MINUS  &kp SEMICOLON  &kp SQT    &kp SEMI
-&kp LEFT_SHIFT  &kp RBKT  &kp RBRC  &kp RPAR  &kp QUESTION        &kp BSLH   &kp UNDER  &kp PLUS       &kp PIPE   &kp ENTER
-                                    &trans    &kp LS(LEFT_ALT)    &tog 4     &trans
+&kp EXCL        &kp AT     &kp HASH  &kp DLLR  &kp PRCNT           &kp CARET  &kp AMPS   &kp ASTRK      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp DQT         &kp GRAVE  &kp LBRC  &kp LPAR  &kp BACKSPACE       &kp FSLH   &kp MINUS  &kp SEMICOLON  &kp SEMI          &kp SQT
+&kp LEFT_SHIFT  &kp TILDE  &kp RBRC  &kp RPAR  &kp QUESTION        &kp BSLH   &kp UNDER  &kp PLUS       &kp PIPE          &kp ENTER
+                                     &trans    &kp LS(LEFT_ALT)    &tog 4     &trans
             >;
         };
 
@@ -131,7 +131,7 @@
 &tog 4  &mkp MB4  &mkp MCLK  &mkp MB5   &trans         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &tog 4
 &trans  &trans    &trans     &trans     &trans         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
 &trans  &trans    &trans     &kp SPACE  &bootloader    &trans          &mkp MB4        &mkp MCLK     &mkp MB5         &trans
-                             &trans  &kp LSHIFT     &mkp LCLK       &mkp RCLK
+                             &trans     &kp LSHIFT     &mkp LCLK       &mkp RCLK
             >;
         };
     };
