@@ -98,20 +98,20 @@
         right_layer {
             display-name = "NUM & NAVIGATION";
             bindings = <
-&kp N1   &kp N2    &kp N3     &kp N4   &kp N5     &kp N6    &kp N7     &kp N8     &kp N9     &kp N0
-&kp DEL  &kp CAPS  &kp PSCRN  &kp INS  &trans     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans   &trans    &trans     &trans   &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &bootloader
-                              &trans   &kp ESC    &trans    &trans
+&kp HOME          &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &kp END          &kp SLASH     &kp N7        &kp N8        &kp N9        &kp N0
+&kp LS(CAPSLOCK)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COMMA
+&kp DOT           &kp COLON       &kp EQUAL       &kp INS          &kp DELETE       &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+                                                  &trans           &kp ESC          &kp PLUS      &trans
             >;
         };
 
         left_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE  &kp TILDE
-&kp DQT   &kp LBKT  &kp LBRC  &kp LPAR  &default_report    &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON  &kp SEMI
-&kp SQT   &kp RBKT  &kp RBRC  &kp RPAR  &bootloader        &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE   &kp QMARK
-                              &trans    &trans             &tog 4     &trans
+&kp EXCL        &kp AT    &kp HASH  &kp DLLR  &kp PRCNT           &kp CARET  &kp AMPS   &kp ASTRK      &kp GRAVE  &kp TILDE
+&kp DQT         &kp LBKT  &kp LBRC  &kp LPAR  &kp BACKSPACE       &kp FSLH   &kp MINUS  &kp SEMICOLON  &kp SQT    &kp SEMI
+&kp LEFT_SHIFT  &kp RBKT  &kp RBRC  &kp RPAR  &kp QUESTION        &kp BSLH   &kp UNDER  &kp PLUS       &kp PIPE   &kp ENTER
+                                    &trans    &kp LS(LEFT_ALT)    &tog 4     &trans
             >;
         };
 
@@ -128,10 +128,10 @@
         mouse {
             display-name = "MOUSE";
             bindings = <
-&tog 4  &mkp MB4  &mkp MCLK  &mkp MB5   &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &tog 4
-&trans  &trans    &trans     &trans     &trans        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans    &trans     &trans     &trans        &trans          &mkp MB4        &mkp MCLK     &mkp MB5         &trans
-                             &kp SPACE  &kp LSHIFT    &mkp LCLK       &mkp RCLK
+&tog 4  &mkp MB4  &mkp MCLK  &mkp MB5   &trans         &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &tog 4
+&trans  &trans    &trans     &trans     &trans         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans    &trans     &trans     &bootloader    &trans          &mkp MB4        &mkp MCLK     &mkp MB5         &trans
+                             &kp SPACE  &kp LSHIFT     &mkp LCLK       &mkp RCLK
             >;
         };
     };
