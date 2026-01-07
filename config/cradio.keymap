@@ -101,7 +101,7 @@
 &kp HOME            &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN    &kp END          &kp SLASH     &kp N7  &kp N8  &kp N9  &kp MINUS
 &kp LS(CAPSLOCK)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE    &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS
 &ht LEFT_SHIFT DOT  &kp COLON       &kp EQUAL       &kp INS          &kp DELETE       &kp N0        &kp N1  &kp N2  &kp N3  &kp ENTER
-                                                    &trans           &kp ESC          &kp KP_COMMA  &trans
+                                                    &trans           &kp ESC          &kp PERIOD    &trans
             >;
         };
 
